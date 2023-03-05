@@ -9,7 +9,7 @@
         "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
         "TopicArn": "arn:{partition}:sns:EXAMPLE",
         "Subject": "TestInvoke",
-        "Message": "Hello from SNS!",
+        "Message": "{\"AlarmName\":\"CXM2Veolia\",\"AlarmDescription\":\"CXM2Veolia is not processing\",\"AWSAccountId\":\"898823515462\",\"AlarmConfigurationUpdatedTimestamp\":\"2020-07-10T13:49:10.957+0000\",\"NewStateValue\":\"OK\",\"NewStateReason\":\"Threshold Crossed: 1 out of the last 10 datapoints [1.0 (05/03/23 16:05:00)] was not less than the threshold (1.0) and 9 missing datapoints were treated as [Breaching] (minimum 1 datapoint for ALARM -> OK transition).\",\"StateChangeTime\":\"2023-03-05T16:10:30.369+0000\",\"Region\":\"EU (London)\",\"AlarmArn\":\"arn:aws:cloudwatch:eu-west-2:898823515462:alarm:CXM2Veolia\",\"OldStateValue\":\"ALARM\",\"OKActions\":[\"arn:aws:sns:eu-west-2:898823515462:CXM2Veolia\"],\"AlarmActions\":[\"arn:aws:sns:eu-west-2:898823515462:CXM2Veolia\"],\"InsufficientDataActions\":[],\"Trigger\":{\"MetricName\":\"Processed\",\"Namespace\":\"CXM2VeoliaMetrics-live\",\"StatisticType\":\"Statistic\",\"Statistic\":\"SUM\",\"Unit\":null,\"Dimensions\":[],\"Period\":300,\"EvaluationPeriods\":10,\"DatapointsToAlarm\":10,\"ComparisonOperator\":\"LessThanThreshold\",\"Threshold\":1.0,\"TreatMissingData\":\"breaching\",\"EvaluateLowSampleCountPercentile\":\"\"}}",
         "Timestamp": "1970-01-01T00:00:00Z",
         "SignatureVersion": "1",
         "Signature": "EXAMPLE",
